@@ -11,7 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
+<<<<<<< HEAD
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+=======
+mix.js('resources/js/app.js', 'public/js').postCss('resources/css/app.css', 'public/css', [
+    require('tailwindcss'),
+    require('autoprefixer'),
+]);
+>>>>>>> 7ca7b45 (Pembukuan v2)

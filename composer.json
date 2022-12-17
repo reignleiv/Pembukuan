@@ -8,6 +8,10 @@
         "php": "^7.3|^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+<<<<<<< HEAD
+=======
+        "laravel/breeze": "1.9.2",
+>>>>>>> 7ca7b45 (Pembukuan v2)
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5"

@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('dashboard');
 });
+=======
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__ . '/auth.php';
+>>>>>>> 7ca7b45 (Pembukuan v2)
